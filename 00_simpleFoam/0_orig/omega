@@ -24,27 +24,27 @@ boundaryField
     freeSurface
     {
         type            fixedValue;
-		value           uniform 1.9197;
+		value           $internalField;
     }
     bedWall
     {
         type            omegaWallFunction;
-        value           uniform 1.9197;
+        value           $internalField;
     }
     leftSide
     {
         type            omegaWallFunction;
-        value           uniform 1.9197;
+        value           $internalField;
     }
     rightSide
     {
         type            omegaWallFunction;
-        value           uniform 1.9197;
+        value           $internalField;
     }
     inletWater
     {
         type            fixedValue;
-        value           uniform 1.9197;
+        value           $internalField;
     }
     outletWater
     {
