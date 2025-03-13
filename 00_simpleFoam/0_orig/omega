@@ -24,7 +24,7 @@ boundaryField
     freeSurface
     {
         type            fixedValue;
-		value           $internalField;
+	value           $internalField;
     }
     bedWall
     {
