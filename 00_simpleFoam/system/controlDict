@@ -50,5 +50,9 @@ adjustTimeStep yes;
 maxCo    0.5;
 
 libs ("libturbulenceModels.so");
+functions
+{
+    #include "FOyPlus"
+}
 
 // ************************************************************************* //
